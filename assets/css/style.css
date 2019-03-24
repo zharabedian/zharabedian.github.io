@@ -1,20 +1,160 @@
 
-Header {
+header {
     background: #ffffff;
-    border: #cccccc
-    height: 600px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 981px;
-    margin: 0 auto 18px;
+    border: #cccccc;
+    height: 100px;
+    font-family: Arial;
+    margin: 2px;
     overflow: hidden;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: Georgia;
+    padding left: 55px;
+    padding right: 55px;
+
 }
+
+#menu {
+    text-align:right;
+    font-size: medium;
+    margin-top: 30px;
+    padding-right: 10px;
+    font-family: Arial;
+    
+}
+a:visited {
+  color: #777777;
+  text-decoration: none;
+}
+a:link {
+  color: #777777;
+  text-decoration: none;
+}
+a:hover{
+  color: #4aaaa5;
+  text-decoration: none;
+}
+h1 {
+    padding: 10px;
+  
+}
+
+
+.hbox {
+    width:300px;
+    height:100px;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 10%; }
+}
+
+
+
+
+h3 {
+    padding: 10px;
+}
+
+
+#bio-picture {
+    float: left;
+    width: 250px;
+    background-color: white;
+    padding: 25px;
+    margin-left: 10%;
+   
+   
+}
+/* Css for portfolio */
+.container1 {
+float: left;
+width: 33.3%;
+padding: 15px;
+position: relative;
+
+  }
+  /* Css for portfolio */
+  .text-block {
+position: absolute;
+bottom: 20px;
+background-color: #4aaaa5;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+
+  }
 
 body {
     background-image: url("../images/background.png");
-    background-color: #cccccc;
+    background-color: #440101;
+    color: #777777;
+    border-color: #dddddd;
    }
+ 
+#bodytext{
+    background-color: #FFFFFF;
+    padding: 150px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+h2 {
+  color: #4aaaa5;
+  background-color: white;
+  margin: -1px;
+  width: 70%;
+}
+
+#portfolio {
+  background-color: white;
+}
+#breakhead {
+  margin-top: -10px;
+}
+
+/* Contact form CSS */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+.container1 {
+  background-color: white;
+}
 
 footer {
     background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 300px;
 }
+
